@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>动动车</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="larea/css/LArea.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- form -->
+    <div class="cont">
+        <form action="" target="nm_iframe">
+            <div class="inp_sty">
+                收货人：<input type="text">
+            </div>
+            <div class="inp_sty phone">
+                手机号：<input type="text" value="">
+            </div>
+            <div class="inp_sty posi">
+                所在地区： <input id="demo1" type="text" readonly="" value="北京市,房山区" />
+                <span>></span>
+            </div>
+            <div class="tex_sty">
+                详细地址：<textarea name=""></textarea>
+            </div>
+            <div class="but_submit">
+                <input type="submit" value="立即领取">
+            </div>
+        </form>
+        <iframe name="nm_iframe" style="display:none;"></iframe>
+    </div>
+    <!-- popup 成功 -->
+    <div class="popup_succeed" style="display: none;">
+        <p>领取成功!</p>
+        <div class="succeed_but">
+            <span class="succeed_cancel">取消</span>
+            <span class="succeed_confirm">确认</span>
+        </div>
+    </div>
+    <!-- popup 失败 -->
+    <div class="popup_defeated" style="display: none;">
+        <p>领取失败</p>
+        <p>请重新填写收货信息!</p>
+        <div class="defeated_but">
+            <span class="defeated_cancel">取消</span>
+            <span class="defeated_confirm">确认</span>
+        </div>
+
+    </div>
+    <script src="js/rem.js" async="async"></script>
+    <script src="larea/js/LAreaData1.js"></script>
+    <script src="larea/js/LArea.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
