@@ -17,7 +17,7 @@ body {
     left: 50%;
     margin-left: -45%;
     width: 90%;
-    height: 5.5rem;
+    /* height: 5.5rem; */
     font-size: 0.30rem;
     color: #fff;
 }
@@ -171,24 +171,13 @@ body {
         left: 50%;
         margin-left: -45%;
         width: 90%;
-        height: 5.5rem;
+        /* height: 5.5rem; */
         font-size: 0.30rem;
         color: #fff;
     }
 }
 
 @media (max-width:320px) {
-    .cont {
-        position: absolute;
-        /* top: 6rem; */
-        top: 55%;
-        left: 50%;
-        margin-left: -45%;
-        width: 90%;
-        height: 4.8rem;
-        font-size: 0.30rem;
-        color: #fff;
-    }
     .but_submit {
         margin-top: 0.4rem;
         border-radius: 5rx;
