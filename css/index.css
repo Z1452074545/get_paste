@@ -12,12 +12,10 @@ body {
 
 .cont {
     position: absolute;
-    /* top: 7rem; */
     top: 55%;
     left: 50%;
     margin-left: -45%;
     width: 90%;
-    /* height: 5.5rem; */
     font-size: 0.30rem;
     color: #fff;
 }
@@ -162,19 +160,6 @@ body {
 
 .defeated_confirm {
     float: right;
-}
-
-@media only screen and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-    .cont {
-        position: absolute;
-        top: 9.2rem;
-        left: 50%;
-        margin-left: -45%;
-        width: 90%;
-        /* height: 5.5rem; */
-        font-size: 0.30rem;
-        color: #fff;
-    }
 }
 
 @media (max-width:320px) {

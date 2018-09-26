@@ -11,7 +11,7 @@ area1.init({
 });
 area1.value = [1, 13, 3]; //控制初始位置，注意：该方法并不会影响到input的value
 
-(function() {
+window.onload = function() {
     var phone = document.querySelector(".phone input");
     phone.onblur = function() {
         var phone_val = phone.value;
@@ -62,4 +62,4 @@ area1.value = [1, 13, 3]; //控制初始位置，注意：该方法并不会影�
         popup_defeated.style.display = "none";
 
     }
-})()
+}
